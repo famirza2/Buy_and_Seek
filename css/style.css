@@ -57,8 +57,6 @@ a {
 
 }
 
-
-
 /* Header */
 
 .logo {
@@ -77,6 +75,19 @@ a {
   height: 30px;
   top: -48px;
   left: 328px;
+  background-image: url("images/Profile_Button_Idle.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.userprofilebutton:hover {
+  cursor: pointer;
+}
+
+.userprofilebutton:active {
+  background-image: url("images/Profile_Button_Active.png");
+  z-index: 2;
 }
 
 .backbutton {
@@ -84,8 +95,21 @@ a {
   position: relative;
   width: 20.5px;
   height: 20.5px;
-  top: -73px;
-  left: 34px;
+  margin-top: -73px;
+  margin-left: 34px;
+  background-image: url("images/Interface Back Idle.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.backbutton:hover {
+  cursor: pointer;
+}
+
+.backbutton:active {
+  background-image: url("images/Interface Back Active.png");
+  z-index: 2;
 }
 
 .header {
@@ -173,6 +197,11 @@ a {
   padding-top: 22px;
 }
 
+.myfavoritesbutton:hover {
+  cursor: pointer;
+}
+
+
 .myfavoritesicon {
   display: block;
   width: 22px;
@@ -200,6 +229,10 @@ a {
   margin-top: 1px;
   margin-left: 261px;
   padding-top: 22px;
+}
+
+.searchbutton:hover {
+  cursor: pointer;
 }
 
 .searchicon {
@@ -319,10 +352,24 @@ a {
   display: block;
   position: relative;
   margin: 0 auto;
-  width: 30px;
-  height: 30px;
-  margin-top: -72px;
+  width: 40px;
+  height: 40px;
+  margin-top: -82px;
+  transform: translateY(5px);
   right: -153px;
+  background-image: url("images/Favorite_button.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.favoritebutton:hover {
+  cursor: pointer;
+}
+
+.favoritebutton:active {
+  background-image: url("images/Favorite_button_active.png");
+  z-index: 2;
 }
 
 .storeaddress {
@@ -441,7 +488,7 @@ button#searchButton.searchbuttonactive {
   border-radius: 50%;
   width: 44px;
   height: 44px;
-  background: url(../images/Search-Button-Active.png) no-repeat center center;
+  background: url("images/Search-Button-Active.png") no-repeat center center;
   background-size: 44px 44px;
   padding: 0;
 }
@@ -449,6 +496,7 @@ button#searchButton.searchbuttonactive {
 .searchbuttonactive:hover {
   background-color: rgba(0, 0, 0, 0);
   background-size: 44px 44px;
+  cursor: pointer;
 }
 
 .searchbuttoninactive {
@@ -461,7 +509,7 @@ button#searchButton.searchbuttonactive {
   border-radius: 50%;
   width: 44px;
   height: 44px;
-  background: url(../images/Search-Button-Inactive.png) no-repeat center center;
+  background: url("images/Search-Button-Inactive.png") no-repeat center center;
   background-size: 44px 44px;
   padding: 0;
 }
@@ -528,6 +576,7 @@ button#searchButton.searchbuttonactive {
 
 .requestassistancebutton:hover {
   background-color: #CD7255;
+  cursor: pointer;
 }
 
 .storescreentray {
@@ -623,20 +672,27 @@ button#searchButton.searchbuttonactive {
 .storemapbutton {
   display: block;
   position: relative;
+  width: 132px;
+  height: 54px;
+  top: 109px;
+  left: 205px;
+  background-image: url("images/Store_Map_Button_Idle.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.storemapbutton:hover {
+  cursor: pointer;
+}
+
+.storemapbutton:active {
+  background-image: url("images/Store_Map_Button_Active.png");
   width: 124px;
   height: 38px;
-  line-height: 38px;
-  text-align: center;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-
-  border-radius: 10px;
-  font-family: "Arimo", Arial;
-  font-size: 20px;
-  letter-spacing: -0.05em;
-  background-color: #0084A1;
-  color: #FFFFFF;
   top: 109px;
   left: 209px;
+  z-index: 2;
 }
 
 .productrequestassistance {
@@ -644,14 +700,32 @@ button#searchButton.searchbuttonactive {
   padding-left: 44px;
 }
 
+.productrequestassistance:hover {
+  cursor: pointer;
+}
+
 .productbackbutton {
   display: block;
   position: relative;
   width: 20.5px;
   height: 20.5px;
-  top: -43px;
-  left: 34px;
+  margin-top: -43px;
+  margin-left: 34px;
+  background-image: url("images/Interface Back Idle.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  z-index: 1;
 }
+
+.productbackbutton:hover {
+  cursor: pointer;
+}
+
+.productbackbutton:active {
+  background-image: url("images/Interface Back Active.png");
+  z-index: 2;
+}
+
 
 .productscreentray {
   margin-top: 32px;
@@ -749,16 +823,3 @@ For Reference {
 
 /* Note: I am aware of the ":root" and "var(--color);" approach to color styles.
 I chose not to take it because it gets rid of the hex value display, which is helpful to see when coding */
-
-
-
-
-
-
-/* not worked through yet*/
-
-button:hover {
-  color: #FFFFFF;
-  background-color: #0000FF;
-  cursor: pointer;
-}
