@@ -1,0 +1,764 @@
+
+/* "iPhone 14" styling */
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-color: #FFFFFF;
+}
+
+html {
+  width: 390px;
+  height: 844px;
+  margin: 0 auto;
+  background-color: #000000;
+}
+
+a {
+  text-decoration: none;
+}
+
+#time {
+  display: block;
+  font-family: "SF UI Display Bold";
+  font-size: 17px;
+  padding-top: 21.5px;
+  margin-left: 41px;
+}
+
+#sensorhousing {
+  display: block;
+  position: relative;
+  width: 125px;
+  height: 37px;
+  border-radius: 100px;
+  background-color: #000000;
+  top: -34px;
+  left: 133px;
+}
+
+.signalwifibattery {
+  position: relative;
+  width: 78.4px;
+  height: 13px;
+  top: -57px;
+  left: 285px;
+}
+
+@media only screen and (max-width: 428px) {
+  html {
+    background-color: transparent;
+  }
+
+  body {
+    background-color: #000000;
+  }
+
+}
+
+
+
+/* Header */
+
+.logo {
+  display: block;
+  position: relative;
+  width: 162px;
+  height: 39px;
+  top: -13px;
+  left: 114px;
+}
+
+.userprofilebutton {
+  display: block;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  top: -48px;
+  left: 328px;
+}
+
+.backbutton {
+  display: block;
+  position: relative;
+  width: 20.5px;
+  height: 20.5px;
+  top: -73px;
+  left: 34px;
+}
+
+.header {
+  width: 390px;
+  height: 145px;
+  background-color: #F3F1E0;
+  border-bottom: 1px solid #ECCC97;
+}
+
+
+/* Tray Navigation */
+
+.tray {
+  margin-top: -6px;
+  width: 390px;
+  height: 60px;
+  background-color: #ECCC97;
+}
+
+.homebutton {
+  display: block;
+  width: 129px;
+  height: 37px;
+  background-color: #F3F1E0;
+  position: absolute;
+  margin-top: 1px;
+  padding-top: 22px;
+}
+
+.homeicon {
+  display: block;
+  width: 25.15px;
+  height: 22.74px;
+  margin-top: -16px;
+  margin-left: 52px;
+}
+
+.hometext {
+  position: relative;
+  top: 5px;
+  padding-left: 45px;
+  font: bold 15px "Arimo", Arial;
+  color: #0084A1;
+  letter-spacing: -0.05em;
+  text-decoration: none;
+}
+
+.homebuttonactive {
+  display: block;
+  width: 129px;
+  height: 37px;
+  background-color: #0084A1;
+  position: absolute;
+  margin-top: 1px;
+  padding-top: 22px;
+  text-decoration: none;
+}
+
+.homeiconactive {
+  display: block;
+  width: 25.15px;
+  height: 22.74px;
+  margin-top: -16px;
+  margin-left: 52px;
+}
+
+.hometextactive {
+  font: bold 15px "Arimo", Arial;
+  color: #F3F1E0;
+  letter-spacing: -0.05em;
+  text-decoration: none;
+  position: relative;
+  top: 5px;
+  padding-left: 45px;
+}
+
+.myfavoritesbutton {
+  display: block;
+  width: 130px;
+  height: 37px;
+  background-color: #F3F1E0;
+  position: absolute;
+  margin-top: 1px;
+  margin-left: 130px;
+  padding-top: 22px;
+}
+
+.myfavoritesicon {
+  display: block;
+  width: 22px;
+  height: 20px;
+  margin-top: -13px;
+  margin-left: 54px;
+}
+
+.myfavoritestext {
+  font: bold 15px "Arimo", Arial;
+  color: #0084A1;
+  letter-spacing: -0.05em;
+  text-decoration: none;
+  position: relative;
+  top: -9px;
+  padding-left: 23px;
+}
+
+.searchbutton {
+  display: block;
+  width: 129px;
+  height: 37px;
+  background-color: #F3F1E0;
+  position: absolute;
+  margin-top: 1px;
+  margin-left: 261px;
+  padding-top: 22px;
+}
+
+.searchicon {
+  display: block;
+  width: 22px;
+  height: 22px;
+  margin-top: -12px;
+  margin-left: 54px;
+}
+
+.searchtext {
+  font: bold 15px "Arimo", Arial;
+  color: #0084A1;
+  letter-spacing: -0.05em;
+  text-decoration: none;
+  position: relative;
+  top: 2px;
+  padding-left: 41px;
+}
+
+
+
+/* Home Screen */
+
+.browsestoresnearyou {
+  margin-top: 25px;
+  text-align: center;
+  padding-left: 1px;
+}
+
+.firstnearbystore {
+  display: block;
+  margin-top: -5px;
+}
+
+.nearbystoreimage {
+  display: inline-block;
+  vertical-align: middle;
+  width: 58px;
+  height: 58px;
+  border: 0.3px solid #000000;
+  margin-top: -8px;
+  margin-left: 26px;
+}
+
+.firststoretext {
+  display: inline-block;
+  vertical-align: middle;
+  width: 90px;
+  height: 60px;
+  line-height: 151%;
+  letter-spacing: -0.05em;
+  padding-top: 1px;
+  padding-left: 27px;
+  word-wrap: break-word;
+}
+
+.nearbystoredistance {
+  display: inline-block;
+  vertical-align: middle;
+  width: 128px;
+  height: 26px;
+  line-height: 151%;
+  letter-spacing: -0.05em;
+  margin-top: 9px;
+  margin-left: 27px;
+}
+
+.othernearbystores {
+  margin-top: 2px;
+}
+
+.othernearbystores:hover {
+  cursor: pointer;
+}
+
+.othernearbystorestext {
+  display: inline-block;
+  vertical-align: middle;
+  width: 90px;
+  height: 60px;
+  line-height: 302%;
+  letter-spacing: -0.05em;
+  padding-top: 1px;
+  padding-left: 27px;
+}
+
+
+/* Selected Store Branch */
+
+.storesummary {
+  margin-top: 28px;
+  position: relative;
+}
+
+.storesummaryimage {
+  display: inline-block;
+  width: 58px;
+  height: 58px;
+  border: 0.3px solid #000000;
+  margin-left: 27px;
+}
+
+.storename {
+  position: relative;
+  width: 190px;
+  height: 36px;
+  margin-top: -46px;
+  padding-left: 114px;
+  font-family: "Urbanist", Arial;
+  font-weight: bold;
+  font-size: 24px;
+  color: #004D5E;
+}
+
+.favoritebutton {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  width: 30px;
+  height: 30px;
+  margin-top: -72px;
+  right: -153px;
+}
+
+.storeaddress {
+  font-family: "Arimo", Arial;
+  font-size: 17px;
+  color: #004D5E;
+  letter-spacing: -0.05em;
+  padding-top: 20px;
+  padding-left: 57px;
+}
+
+.storenumber {
+  font-family: "Arimo", Arial;
+  font-size: 17px;
+  color: #0084A1;
+  letter-spacing: -0.05em;
+  margin-top: -2px;
+  padding-left: 142px;
+}
+
+.sectiondivider1 {
+  border-bottom: 1px solid #ECCC97;
+  width: 390px;
+  position: relative;
+  top: 11px;
+}
+
+.currentstoreoccupancy {
+  padding-top: 28px;
+  margin-bottom: -26px;
+}
+
+.storeoccupancylabel {
+  font-family: "Arimo", Arial;
+  font-size: 20px;
+  color: #004D5E;
+  letter-spacing: -0.05em;
+  margin-left: 66px;
+}
+
+.storeoccupancyvalue {
+  font-family: "Urbanist", Arial;
+  font-weight: bold;
+  font-size: 24px;
+  color: #4F9972;
+  margin-top: -47px;
+  padding-left: 279px;
+}
+
+.sectiondivider2 {
+  border-bottom: 1px solid #ECCC97;
+  width: 390px;
+  position: relative;
+  top: 33px;
+}
+
+.iteminstock {
+  width: 218px;
+  height: 36px;
+  margin-top: 78px;
+  margin-left: 86px;
+  font-family: "Urbanist", Arial;
+  font-weight: bold;
+  font-size: 24px;
+  color: #004D5E;
+}
+
+.storesearchbar {
+  position: relative;
+  width: 337px;
+  height: 44px;
+  margin-top: -9px;
+  margin-left: 26px;
+  border-radius: 10px;
+  background-color: #ECCC97;
+  overflow: hidden;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+}
+
+.searchinput {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 319px;
+  height: 44px;
+  padding-left: 18px;
+  font-family: "Arimo", Arial;
+  font-size: 20px;
+  color: #004D5E;
+  letter-spacing: -0.05em;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  background-color: transparent;
+}
+
+.searchinput::placeholder {
+  font-family: "Arimo", Arial;
+  font-size: 20px;
+  color: #a58f6a;
+  letter-spacing: -0.05em;
+}
+
+button#searchButton.searchbuttonactive {
+  color: none;
+  border: none;
+}
+
+.searchbuttonactive {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  background: url(../images/Search-Button-Active.png) no-repeat center center;
+  background-size: 44px 44px;
+  padding: 0;
+}
+
+.searchbuttonactive:hover {
+  background-color: rgba(0, 0, 0, 0);
+  background-size: 44px 44px;
+}
+
+.searchbuttoninactive {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  background: url(../images/Search-Button-Inactive.png) no-repeat center center;
+  background-size: 44px 44px;
+  padding: 0;
+}
+
+.searchbuttoninactive:hover {
+  background-color: rgba(0, 0, 0, 0);
+  background-size: 44px 44px;
+}
+
+.errormessage {
+  display: block;
+  position: absolute;
+  top: 572px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: "Arimo", Arial;
+  font-size: 17px;
+  text-align: center;
+  color: #CD7255;
+}
+
+.searcherror {
+  border: 2px solid #CD7255;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+
+.hide {
+  display: none !important;
+}
+
+.sectiondivider3 {
+  border-bottom: 1px solid #ECCC97;
+  width: 390px;
+  position: relative;
+  top: 41px;
+}
+
+.requestassistance {
+  margin-top: 103px;
+  padding-left: 44px;
+}
+
+.requestassistancebutton {
+  display: block;
+  width: 302px;
+  height: 57px;
+  padding: 0px 50.5px;
+  background-color: #CD7255;
+
+  font-family: "Urbanist", Arial;
+  font-weight: bold;
+  font-size: 19px;
+  color: #FFFFFF;
+
+  text-align: center;
+  line-height: 57px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  text-decoration: none;
+  border: none;
+  border-radius: 30px;
+}
+
+.requestassistancebutton:hover {
+  background-color: #CD7255;
+}
+
+.storescreentray {
+  margin-top: 62px;
+  width: 390px;
+  height: 60px;
+  background-color: #ECCC97;
+}
+
+
+/* Product Detail */
+
+.productsummary {
+  display: block;
+  position: relative;
+  width: 276px;
+  height: 309px;
+}
+
+.productimage {
+  display: block;
+  position: absolute;
+  width: 143px;
+  height: 143px;
+  top: -1px;
+  left: 124px;
+  }
+
+.producttitle {
+  display: block;
+  position: relative;
+  width: 150px;
+  height: 35px;
+  font-family: "Arimo", Arial;
+  font-size: 23px;
+  letter-spacing: -0.05em;
+  color: #004D5E;
+  left: 120px;
+  top: 156px;
+}
+
+.productprice {
+  display: block;
+  position: relative;
+  width: 124px;
+  height: 38px;
+  line-height: 38px;
+  text-align: center;
+  border-radius: 10px;
+  font-family: "Arimo", Arial;
+  font-size: 20px;
+  letter-spacing: -0.05em;
+  background-color: #ECCC97;
+  color: #004D5E;
+  top: 148px;
+  left: 57px;
+}
+
+.productstock {
+  display: block;
+  position: relative;
+  width: 124px;
+  height: 38px;
+  line-height: 38px;
+  text-align: center;
+  border-radius: 10px;
+  font-family: "Arimo", Arial;
+  font-size: 20px;
+  letter-spacing: -0.05em;
+  background-color: #ECCC97;
+  color: #004D5E;
+  top: 110px;
+  left: 209px;
+}
+
+.productaisle {
+  display: block;
+  position: relative;
+  width: 124px;
+  height: 38px;
+  line-height: 38px;
+  text-align: center;
+  border-radius: 10px;
+  font-family: "Arimo", Arial;
+  font-size: 20px;
+  letter-spacing: -0.05em;
+  background-color: #ECCC97;
+  color: #004D5E;
+  top: 147px;
+  left: 57px;
+}
+
+.storemapbutton {
+  display: block;
+  position: relative;
+  width: 124px;
+  height: 38px;
+  line-height: 38px;
+  text-align: center;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+
+  border-radius: 10px;
+  font-family: "Arimo", Arial;
+  font-size: 20px;
+  letter-spacing: -0.05em;
+  background-color: #0084A1;
+  color: #FFFFFF;
+  top: 109px;
+  left: 209px;
+}
+
+.productrequestassistance {
+  margin-top: 46px;
+  padding-left: 44px;
+}
+
+.productbackbutton {
+  display: block;
+  position: relative;
+  width: 20.5px;
+  height: 20.5px;
+  top: -43px;
+  left: 34px;
+}
+
+.productscreentray {
+  margin-top: 32px;
+  width: 390px;
+  height: 60px;
+  background-color: #ECCC97;
+}
+
+/* Typography */
+@font-face {
+  font-family: "Urbanist";
+  src: url("../fonts/Urbanist-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "Arimo";
+  src: url("../fonts/Arimo-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "SF UI Display Bold";
+  src: url("../fonts/SFUIDisplay-Bold.ttf");
+}
+
+h1 {
+  font-family: "Urbanist", Arial;
+  font-weight: bold;
+  font-size: 24px;
+  color: #004D5E;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Arimo", Arial;
+  font-weight: bold;
+  font-size: 15px;
+  color: #0084A1;
+}
+
+h3 {
+  font-family: "Arimo", Arial;
+  font-size: 23px;
+  color: #004D5E;
+}
+
+h4 {
+  font-family: "Arimo", Arial;
+  font-size: 20px;
+  color: #004D5E;
+}
+
+h5 {
+  font-family: "Urbanist", Arial;
+  font-weight: bold;
+  font-size: 19px;
+  color: #FFFFFF;
+}
+
+p {
+  font-family: "Arimo", Arial;
+  font-size: 17px;
+  color: #004D5E;
+}
+
+
+
+/* Color Styles */
+
+For Reference {
+  /* Branding */
+  -Green: #4F9972;
+  -Blue: #0084A1;
+  -Rust: #CD7255;
+  -Sand: #ECCC97;
+  -Eggshell: #F3F1E0;
+
+  /* Primary */
+  -Primary-Idle: #CD7255;
+  -Primary-Active: #A7503A;
+  -Secondary-Idle: #0084A1;
+  -Secondary-Active: #005569;
+  -Std-Txt-Midnight-Sky: #004D5E;
+  -Inp-Placeholder-Txt: #a58f6a;
+
+  /* Secondary */
+  -Primary-Interface: #F3F1E0;
+  -Secondary-Interface: #ECCC97;
+  -Primary-UI-Tone: #CD7255;
+  -Secondary-UI-Tone: #0084A1;
+
+  /* Absolutes */
+  -Black: #000000;
+  -White: #FFFFFF;
+}
+
+/* Note: I am aware of the ":root" and "var(--color);" approach to color styles.
+I chose not to take it because it gets rid of the hex value display, which is helpful to see when coding */
+
+
+
+
+
+
+/* not worked through yet*/
+
+button:hover {
+  color: #FFFFFF;
+  background-color: #0000FF;
+  cursor: pointer;
+}
