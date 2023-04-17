@@ -75,7 +75,7 @@ a {
   height: 30px;
   top: -48px;
   left: 328px;
-  background-image: url("images/Profile_Button_Idle.png");
+  background-image: url("../images/Profile_Button_Idle.png");
   background-size: 100%;
   background-repeat: no-repeat;
   z-index: 1;
@@ -86,7 +86,7 @@ a {
 }
 
 .userprofilebutton:active {
-  background-image: url("images/Profile_Button_Active.png");
+  background-image: url("../images/Profile_Button_Active.png");
   z-index: 2;
 }
 
@@ -97,7 +97,7 @@ a {
   height: 20.5px;
   margin-top: -73px;
   margin-left: 34px;
-  background-image: url("images/Interface Back Idle.png");
+  background-image: url("../images/Interface Back Idle.png");
   background-size: 100%;
   background-repeat: no-repeat;
   z-index: 1;
@@ -108,7 +108,7 @@ a {
 }
 
 .backbutton:active {
-  background-image: url("images/Interface Back Active.png");
+  background-image: url("../images/Interface Back Active.png");
   z-index: 2;
 }
 
@@ -197,11 +197,6 @@ a {
   padding-top: 22px;
 }
 
-.myfavoritesbutton:hover {
-  cursor: pointer;
-}
-
-
 .myfavoritesicon {
   display: block;
   width: 22px;
@@ -229,10 +224,6 @@ a {
   margin-top: 1px;
   margin-left: 261px;
   padding-top: 22px;
-}
-
-.searchbutton:hover {
-  cursor: pointer;
 }
 
 .searchicon {
@@ -357,7 +348,7 @@ a {
   margin-top: -82px;
   transform: translateY(5px);
   right: -153px;
-  background-image: url("images/Favorite_button.png");
+  background-image: url("../images/Favorite_button.png");
   background-size: 100%;
   background-repeat: no-repeat;
   z-index: 1;
@@ -368,7 +359,7 @@ a {
 }
 
 .favoritebutton:active {
-  background-image: url("images/Favorite_button_active.png");
+  background-image: url("../images/Favorite_button_active.png");
   z-index: 2;
 }
 
@@ -488,7 +479,7 @@ button#searchButton.searchbuttonactive {
   border-radius: 50%;
   width: 44px;
   height: 44px;
-  background: url("images/Search-Button-Active.png") no-repeat center center;
+  background: url("../images/Search-Button-Active.png") no-repeat center center;
   background-size: 44px 44px;
   padding: 0;
 }
@@ -509,7 +500,7 @@ button#searchButton.searchbuttonactive {
   border-radius: 50%;
   width: 44px;
   height: 44px;
-  background: url("images/Search-Button-Inactive.png") no-repeat center center;
+  background: url("../images/Search-Button-Inactive.png") no-repeat center center;
   background-size: 44px 44px;
   padding: 0;
 }
@@ -676,7 +667,7 @@ button#searchButton.searchbuttonactive {
   height: 54px;
   top: 109px;
   left: 205px;
-  background-image: url("images/Store_Map_Button_Idle.png");
+  background-image: url("../images/Store_Map_Button_Idle.png");
   background-size: 100%;
   background-repeat: no-repeat;
   z-index: 1;
@@ -687,7 +678,7 @@ button#searchButton.searchbuttonactive {
 }
 
 .storemapbutton:active {
-  background-image: url("images/Store_Map_Button_Active.png");
+  background-image: url("../images/Store_Map_Button_Active.png");
   width: 124px;
   height: 38px;
   top: 109px;
@@ -711,7 +702,7 @@ button#searchButton.searchbuttonactive {
   height: 20.5px;
   margin-top: -43px;
   margin-left: 34px;
-  background-image: url("images/Interface Back Idle.png");
+  background-image: url("../images/Interface Back Idle.png");
   background-size: 100%;
   background-repeat: no-repeat;
   z-index: 1;
@@ -722,7 +713,7 @@ button#searchButton.searchbuttonactive {
 }
 
 .productbackbutton:active {
-  background-image: url("images/Interface Back Active.png");
+  background-image: url("../images/Interface Back Active.png");
   z-index: 2;
 }
 
